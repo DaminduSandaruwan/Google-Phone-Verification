@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "279414757626",
+    "firebase_url": "https://verifyphone-15247.firebaseio.com",
+    "project_id": "verifyphone-15247",
+    "storage_bucket": "verifyphone-15247.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279414757626:android:e68a60a28c6631a84b5143",
+        "android_client_info": {
+          "package_name": "com.example.phoneveri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279414757626-qumief8c69r44pcmqbikibmidgdh4ihs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD70IpjGdOsPNbqu1G0TnhCNUcAdBNRZE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279414757626-qumief8c69r44pcmqbikibmidgdh4ihs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
