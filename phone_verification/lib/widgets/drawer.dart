@@ -25,7 +25,6 @@ class _DrawerWidgetState extends State<DrawerWidget> {
               child: CircleAvatar(
                 child: Image.network(
                   widget.imgUrl,
-                  
                 )
                 
               ),

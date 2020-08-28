@@ -31,6 +31,12 @@ class _VisitScreenState extends State<VisitScreen> {
                 Navigator.push(context, MaterialPageRoute(builder: (context) => GoogleAuth(),));
               },
             ),
+            RaisedButton(
+              child: Text('Register with Facebook'),
+              onPressed: (){
+                //Navigator.push(context, MaterialPageRoute(builder: (context) => GoogleAuth(),));
+              },
+            ),
           ],
         ),
         // AuthService().handleAuth(),
