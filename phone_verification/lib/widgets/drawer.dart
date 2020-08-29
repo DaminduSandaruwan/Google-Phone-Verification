@@ -19,14 +19,13 @@ class _DrawerWidgetState extends State<DrawerWidget> {
       child: ListView(
         children:<Widget>[
           UserAccountsDrawerHeader(
-            accountName: Text(widget.name),
-            accountEmail: Text(widget.email),
+            accountName: Text(widget.name == null ? "" : widget.name),
+            accountEmail: Text(widget.email == null ? "" : widget.email),
             currentAccountPicture: GestureDetector(
               child: CircleAvatar(
                 child: Image.network(
-                  widget.imgUrl,
-                )
-                
+                  widget.imgUrl ,   //have to implement null
+                ),
               ),
             ),
             decoration: BoxDecoration(

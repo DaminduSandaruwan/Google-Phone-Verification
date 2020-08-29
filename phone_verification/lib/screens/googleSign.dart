@@ -12,6 +12,8 @@ class _GoogleAuthState extends State<GoogleAuth> {
   bool _isLoggedIn = false;
   GoogleSignIn _googleSignIn = GoogleSignIn(scopes: ['email']);
 
+
+
   _logIn() async{
     try {
       await _googleSignIn.signIn();
@@ -26,7 +28,7 @@ class _GoogleAuthState extends State<GoogleAuth> {
   _logOut(){
     _googleSignIn.signOut();
     setState(() {
-      _isLoggedIn = false;
+      _isLoggedIn = false; 
     });
   }
 
