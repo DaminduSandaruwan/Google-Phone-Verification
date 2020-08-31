@@ -16,7 +16,8 @@ class _GoogleAuthState extends State<GoogleAuth> {
 
   _logIn() async{
     try {
-      await _googleSignIn.signIn();
+      //await _googleSignIn.signIn();
+      await _googleSignIn.signIn().catchError((onError) => print(onError));
       setState(() {
         _isLoggedIn=true;
       });

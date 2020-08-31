@@ -4,6 +4,7 @@ import 'package:phone_verification/screens/dashboard.dart';
 import 'package:phone_verification/screens/loginverificationpage.dart';
 
 class AuthService {
+
   //Handles Auth
   handleAuth() {
     return StreamBuilder(

@@ -24,7 +24,7 @@ class _DrawerWidgetState extends State<DrawerWidget> {
             currentAccountPicture: GestureDetector(
               child: CircleAvatar(
                 child: Image.network(
-                  widget.imgUrl ,   //have to implement null
+                  widget.imgUrl == null ? "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/1024px-User_icon_2.svg.png" : widget.imgUrl ,   //have to implement null
                 ),
               ),
             ),

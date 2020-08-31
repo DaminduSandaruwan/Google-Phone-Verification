@@ -10,6 +10,7 @@ class LoginVerificationPage extends StatefulWidget {
 class _LoginVerificationPageState extends State<LoginVerificationPage> {
   
   String phoneNo;
+  String userName;
   String smsCode;
   String verificationId;
   bool codeSent =false;
@@ -56,6 +57,15 @@ class _LoginVerificationPageState extends State<LoginVerificationPage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              TextField(
+                decoration: InputDecoration(
+                  hintText: "Enter your name : ",
+                ),
+                onChanged: (value) {
+                  this.userName = value;
+                },
+              ),
+              SizedBox(height: 20,),
               TextField(
                 decoration: InputDecoration(
                   hintText: "Enter your phone number (+94xxxxxxxxx)",
